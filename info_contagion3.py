@@ -237,7 +237,7 @@ for ii in range(len(par1_v)):
     rr = par1_v[ii][7] 
     tau = par1_v[ii][8] 
     Lambda = par1_v[ii][9]
-    C = 5 # number of the experiments to execute for the parameters above  
+    C = 10 # number of the experiments to execute for the parameters above  
 
     # check if Lambda - e > 0
     # E = lambda c,s,m : Alpha(s)*(c-m) # < - c: true performance, s:std dev., m: mean
@@ -258,6 +258,7 @@ for ii in range(len(par1_v)):
         file = tmp3.plot().get_figure()
         file.savefig(graph_path)
         results[6].to_csv(data_path)
+        plt.close()
         #    print('sigma_A=' + str(results[0])) ;  print('sigma_B=' + str(results[1]))
         #    print('m_A=' + str(results[2])) ;  print('m_B=' + str(results[3]))
         #    print(' - - - ') ;
