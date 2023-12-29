@@ -1,18 +1,54 @@
 c_star_A, c_star_B, sigma_ob, SigmaA, SigmaB, mA, mB, r, tau, Lambda
-10, 10, 6, 0.5, 0.5, 10, 10, 1, 10, 0.15, SC Model :sigma_ob = 3
+0, 10, 6, 0.5, 0.5, 10, 10, 1, 10, 0.15, SC Model :sigma_ob = 3
 0, 10, 2, 0.5, 0.5, 10, 10, 1, 10, 0.15, SC Model :sigma_ob = 2
 0, 10, 1, 0.5, 0.5, 10, 10, 1, 10, 0.15, SC Model :sigma_ob = 1
 0, 10, 0.5, 0.5, 0.5, 10, 10, 1, 10, 0.15, SC Model :sigma_ob = 0.5
 0, 10, 0.1, 0.5, 0.5, 10, 10, 1, 10, 0.15, SC Model :sigma_ob = 0.1
-0, 10, 1, 0.5, 0.5, 9, 9, 0, 6, 0.15, test2 
-0, 10, 1, 0.5, 0.5, 11, 11, 0, 6, 0.15, test3 
-0, 10, 1, 0.5, 0.5, 10, 9, 0, 6, 0.12, test4
-0, 10, 1, 0.5, 0.5, 10, 11, 0, 6, 0.11, test5
-0, 10, 1, 0.5, 0.5, 10.0, 10, 0, 6, 0.2, test5
-0, 10, 1, 0.5, 0.5, 10.1, 10, 0, 6, 0.2, test7
-0, 10, 2, 0.5, 0.5, 10.1, 10, 0, 6, 0.2, test8
-0, 11, 3, 0.5, 0.5, 11, 10, 0, 6, 0.2, test9
-0, 11, 4, 0.5, 0.5, 12, 10, 0, 6, 0.2, test10
-0, 11, 1, 0.6, 0.4, 13, 10, 0, 6, 0.2, test11
-0, 11, 1, 0.7, 0.3, 14, 10, 0, 6, 0.2, test12
-0, 11, 1, 0.8, 0.2, 15, 10, 0, 6, 0.2, test13
+0, 10, 1, 0.5, 0.5, 11, 11, 1, 6, 2.9, SC Model: lambda variation
+0, 10, 1, 0.5, 0.5, 11, 11, 1, 6, 3.2, SC Model: lambda variation
+0, 10, 1, 0.5, 0.5, 11, 11, 1, 6, 3.5, SC Model: lambda variation
+0, 10, 1, 0.5, 0.5, 11, 11, 1, 6, 4.0, SC Model: lambda variation
+0, 10, 1, 0.5, 0.5, 11, 11, 1, 6, 4.5, SC Model: lambda variation
+0, 10, 1, 0.5, 0.5, 11, 11, 1, 6, 5.0, SC Model: lambda variation
+0, 10, 1, 0.5, 0.5, 11, 11, 1, 6, 5.1, SC Model: lambda variation
+0, 10, 1, 0.5, 0.5, 11, 11, 1, 6, 5.3, SC Model: lambda variation
+0, 10, 1, 0.5, 0.5, 11, 11, 1, 6, 5.5, SC Model: lambda variation
+0, 10, 1, 0.5, 0.5, 11, 11, 1, 6, 5.7, SC Model: lambda variation
+0, 10, 1, 0.5, 0.5, 11, 11, 1, 6, 6.0, SC Model: lambda variation
+0, 10, 1, 0.5, 0.5, 11, 11, 1, 6, 6.4, SC Model: lambda variation
+0, 10, 1, 0.5, 0.5, 11, 11, 1, 6, 6.7, SC Model: lambda variation
+0, 10, 1, 0.5, 0.5, 11, 11, 1, 6, 7.0, SC Model: lambda variation
+0, 10, 1, 0.3, 1, 10, 10, 1, 6, 0.2, sigma_A variation
+0, 10, 1, 0.8, 1, 10, 10, 1, 6, 0.2, sigma_A variation
+0, 10, 1, 1  , 1, 10, 10, 1, 6, 0.2, sigma_A variation
+0, 10, 1, 1.2, 1, 10, 10, 1, 6, 0.2, sigma_A variation
+0, 10, 1, 1.5, 1, 10, 10, 1, 6, 0.2, sigma_A variation
+0, 10, 1, 2  , 1, 10, 10, 1, 6, 0.2, sigma_A variation
+0, 10, 1, 2.5, 1, 10, 10, 1, 6, 0.2, sigma_A variation
+0, 10, 1, 3.1, 1, 10, 10, 1, 6, 0.2, sigma_A variation
+0, 10, 1, 3.5, 1, 10, 10, 1, 6, 0.2, sigma_A variation
+0, 10, 0.7, 0.5, 0.5, 11, 11, 1, 6, 3, pi update 1:sigma_ob variation
+0, 10, 0.8, 0.5, 0.5, 11, 11, 1, 6, 3, pi update 1:sigma_ob variation
+0, 10, 0.9, 0.5, 0.5, 11, 11, 1, 6, 3, pi update 1:sigma_ob variation
+0, 10, 1, 0.5, 0.5, 11, 11, 1, 6, 3, pi update 1:sigma_ob variation
+0, 10, 1.5, 0.5, 0.5, 11, 11, 1, 6, 3, pi update 1:sigma_ob variation
+0, 10, 2, 0.5, 0.5, 11, 11, 1, 6, 3, pi update 1:sigma_ob variation
+0, 10, 3, 0.5, 0.5, 11, 11, 1, 6, 3, pi update 1:sigma_ob variation
+0, 10, 1, 0.5, 0.5, 11, 11, 1, 6, 3, pi update 1:sigma_ob variation
+0, 10, 1, 0.5, 0.5, 11, 11, 1, 6, 3, pi update 1:sigma_ob variation
+0, 10, 1, 0.5, 0.5, 11, 11, 1, 6, 3, pi update 1:sigma_ob variation
+10, 11, 1, 0.5, 0.5, 11, 11, 1, 6, 3, c_star_B better: sigma_b variation
+10, 11, 1, 0.5, 0.6, 11, 11, 1, 6, 3, c_star_B better: sigma_b variation
+10, 11, 1, 0.5, 0.7, 11, 11, 1, 6, 3, c_star_B better: sigma_b variation
+10, 11, 1, 0.5, 0.8, 11, 11, 1, 6, 3, c_star_B better: sigma_b variation
+10, 11, 1, 0.5, 0.9, 11, 11, 1, 6, 3, c_star_B better: sigma_b variation
+10, 11, 1, 0.5, 1.0, 11, 11, 1, 6, 3, c_star_B better: sigma_b variation
+0, 10, 1, 0.5, 0.5, 11, 11, 1, 6, 3, c_star_B better: sigma_b variation
+0, 10, 1, 1.0, 0.5, 11, 11, 1, 6, 3, c_star_B better: sigma_b variation
+0, 11, 1, 0.5, 2.0, 11, 11, 1, 6, 3, c_star_B better: sigma_b variation
+0, 11, 1, 0.5, 2.5, 11, 11, 1, 6, 3, c_star_B better: sigma_b variation
+0, 11, 1, 0.5, 3.0, 11, 11, 1, 6, 3, c_star_B better: sigma_b variation
+0, 11, 1, 0.5, 3.5, 11, 11, 1, 6, 3, c_star_B better: sigma_b variation
+0, 11, 1, 0.5, 0.5, 11, 11, 1, 6, 3, c_star_B better: sigma_b variation
+0, 11, 1, 0.5, 0.5, 11, 11, 1, 6, 3, c_star_B better: sigma_b variation
+0, 11, 1, 0.5, 0.5, 11, 11, 1, 6, 3, c_star_B better: sigma_b variation
