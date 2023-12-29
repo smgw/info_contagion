@@ -242,12 +242,13 @@ for ii in range(len(par1_v)):
     # check if Lambda - e > 0
     # E = lambda c,s,m : Alpha(s)*(c-m) # < - c: true performance, s:std dev., m: mean
     print('----')
-    print(Lambda + E(c_star,Sigma,Mu))
+    print('lambda=' + str(Lambda))
+    print('lambda+e=' + str(Lambda + E(c_star,Sigma,Mu)))
     print('----')
 
     for i in range(C):
         start=datetime.now()
-        results = do_experiment2(sA,sB,mA,mB,rr,0)
+        results = do_experiment2(sA,sB,mA,mB,rr,0) # <==last parameter 0:not update 
         print(datetime.now()-start)
         d = start.strftime('%Y%m%d%H%M%S')
         if os.path.exists(results[5])==False:
